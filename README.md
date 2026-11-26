@@ -1,4 +1,17 @@
 # SiteCraft
+
+## Architecture
+
+```mermaid
+flowchart LR
+  U[Prompt, template, or preferences] --> G[AI website generator]
+  G --> F[Frontend codebase]
+  G --> B[Backend codebase]
+  G --> D[Database schema]
+  F --> O[Production-ready project output]
+  B --> O
+  D --> O
+```
 AI Website Generator: Generate production-ready codebases (frontend, backend, DB) from prompts, templates, or design preferences.
 
 ## 🌟 Features
