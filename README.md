@@ -1,5 +1,9 @@
 # SiteCraft
 
+## Project contribution
+
+Explores prompt-driven website generation by translating product ideas and preferences into a coordinated frontend, backend, and data design.
+
 ## Architecture
 
 ```mermaid
